@@ -79,12 +79,12 @@ zones:
       - config
     targets:
       - dnsimple
-  hackclub.app.:
-    lenient: true
-    sources:
-      - config
-    targets:
-      - dnsimple
+  # hackclub.app.:
+  #   lenient: true
+  #   sources:
+  #     - config
+  #   targets:
+  #     - dnsimple
   hackfoundation.org.:
     sources:
       - config
